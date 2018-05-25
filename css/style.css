@@ -1,3 +1,36 @@
+/*NAVBAR STYLES*/
+
+.navbar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #e6e6e6 !important;
+}
+
+.navbar li {
+  padding-right: 2rem;
+}
+
+#active {
+    color: #399bd1;
+}
+
+#active:hover {
+    color: #399bd1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dropdown-item {
+  border-bottom: solid 1px;
+}
+
+.dropdown-item:hover {
+    color: blue;
+    background-color: #e6e6e6;
+}
+
 h1 {
   text-align: center;
 }
@@ -37,4 +70,61 @@ h1 {
 #logo {
   width: 50%;
   height: 50%;
+}
+
+/*FOOTER SECTION*/
+
+.foot {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  background-color: #e6e6e6 !important;
+  margin-left: 9rem;
+  width: 960px;
+  align-items: center;
+}
+
+#blklogo {
+  height: 2rem;
+}
+
+.foot p {
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+}
+
+.fontawesome {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding-right: 1rem;
+}
+
+.fontawesome a {
+  padding-left: 1rem;
+  transition: 0.3s ease;
+}
+
+.fontawesome a:hover {
+  color: #0099ff;
+}
+
+.fa-instagram {
+  padding-top: 0.25rem;
+}
+
+.foot {
+  width: 100%;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 320px) {
+.foot p {
+    display: none;
+  }
+}
+
+#blklogo {
+    padding-left: 1rem;
 }
