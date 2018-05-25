@@ -15,10 +15,10 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-md navbar-light mb-3">
     <div class="container">
-      <i class="fa fa-camera fa-md"></i></a>
+      <img id="blklogo" src="./image/logo.png" alt="Tool logo">
       <a class="navbar-brand px-2" href="#">Frantastic</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav01"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarNav01">
@@ -26,11 +26,11 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">Home </a>
           </li>
-          <li class="nav-item">
+          <!--           <li class="nav-item">
             <a class="nav-link" href="./other.html">Other Projects </a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="./about.html">About Me </a>
+            <a class="nav-link" href="#jobs">Jobs I do </a>
           </li class="nav-item">
           </li>
         </ul>
@@ -38,54 +38,64 @@
     </div>
   </nav>
 
+  <!--   SITE HEADING -->
   <div class="heading">
     <h1>FRANTASTIC<em> Your local handywoman</em></h1>
     <h3 class="text-center">No job too small all work considered 07765 520971</h4>
   </div>
-  <!--   <div id="cf">
-    <image class="bottom" src="./image/benchafter.jpg"></image>
-    <image class="top" src="./image/benchbefore.jpg"></image>
-  </div> -->
 
+
+  <!-- IMAGES OF WORK -->
   <section id="blog" class="py-3">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="card-columns">
             <div class="card d-none d-sm-block">
-              <!--               <image src="./image/benchafter.jpg" alt="" class="card-img-top img-fluid"></image> -->
               <img src="./image/benchbefore.jpg" alt="" class="card-img-top img-fluid">
             </div>
-
-
             <div class="card">
               <img src="./image/lawnb4.jpg" alt="" class="card-img-top img-fluid">
             </div>
-
             <div class="card d-none d-sm-block">
               <img src="./image/pathbefore.jpg" alt="" class="card-img-top img-fluid">
             </div>
-
-
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!--   SCROLLING MARQUEE -->
+
+  <div class="marquee">
+    <div class="container">
+      <div class="row mb-12">
+        <div class="col-md-12 py-3">
+          <marquee behavior="scroll" direction="left">Frantastic - A great job!</marquee>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   INFO CARDS -->
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="text-center">Fran Bushell</h1>
-        <h3 class="text-center">Your local handywoman</h3>
-        <h4 class="text-center">No job too small all work considered</h4>
+        <div class="card bg-success text-center text-white">
+          <div class="card-body">
+            <h1 class="text-center">Fran Bushell</h1>
+            <h3 class="text-center">Your local handywoman</h3>
+            <h4 class="text-center">No job too small all work considered</h4>
 
-        <h4 class="text-center">
-          Garden and Household Needs
-        </h4>
+            <h4 class="text-center" id="jobs">
+              Garden and Household Needs
+            </h4>
+          </div>
+        </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 pt-5">
         <div class="card bg-success text-center text-white">
           <div class="card-body">
             <i class="fa fa-phone"></i>
@@ -100,41 +110,71 @@
 
   <div class="container">
     <div class="row mb-12">
-      <div class="col-3-sm">
-        <h5>
-          Household
-        </h5>
-        <ul>
-          <li>Painting</li>
-          <li>Flatpacking</li>
-          <li>DIY</li>
-          <li>General Maintenance</li>
-        </ul>
+      <div class="col-md-3 py-3">
+        <div class="card bg-success text-center text-white">
+          <div class="card-body">
+            <h5 class="text-center">
+              Household
+            </h5>
+            <ul class="text-left">
+              <li>Painting</li>
+              <li>Flatpacking</li>
+              <li>DIY</li>
+              <li>General Maintenance</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="col-3-sm">
-        <h5>
-          Garden
-        </h5>
-        <ul>
-          <li>Grass Cutting</li>
-          <li>Hedge Cutting</li>
-          <li>Weeding</li>
-          <li>General Maintenance</li>
-        </ul>
+      <div class="col-md-3 py-3">
+        <div class="card bg-success text-center text-white">
+          <div class="card-body">
+            <h5 class="text-center">
+              Garden
+            </h5>
+            <ul class="text-left">
+              <li>Grass Cutting</li>
+              <li>Hedge Cutting</li>
+              <li>Weeding</li>
+              <li>General Maintenance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pb-3">
+        <div class="card text-center text-white">
+          <div class="card-body">
+            <img class="img-thumbnail" src="./image/logo.png" alt="Logo">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3">
+        <div class="card bg-success text-center text-white">
+          <div class="card-body">
+            <<i class="fa fa-map"></i>
+              <h3>Places I work</h3>
+              <ul class="text-left">
+                <li>Torquay</li>
+                <li>Paignton</li>
+                <li>Surrounding Area</li>
+              </ul>
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
-<!--MAIN FOOTER-->
-        
-        <div class="foot">
-          <img id="blklogo" src="./images/graduation-cap.svg" alt="Graduation Cap logo">
-        <p>&copy; Copyright Computing for Learning 2018<p>
-          <div class="fontawesome" role="presentation">
-            <a href="http://www.facebook.com" target="_blank"><i class= "fa fa-facebook fa-lg"></i></a>
-            <a href="http://www.twitter.com" target="_blank"><i class= "fa fa-twitter fa-lg"></i></a>
-            <a href="http://www.instagram.com" target="_blank"<i class= "fa fa-instagram fa-lg"></i></a>
-          </div>
-       </div>
+  <!--MAIN FOOTER-->
+
+  <div class="foot">
+    <img id="blklogo" src="./image/logo.png" alt="Tool logo">
+    <p>&copy; Copyright Computing for Learning 2018
+      <p>
+        <div class="fontawesome" role="presentation">
+          <a href="http://www.facebook.com" target="_blank"><i class= "fa fa-facebook fa-lg"></i></a>
+          <!--             <a href="http://www.twitter.com" target="_blank"><i class= "fa fa-twitter fa-lg"></i></a> -->
+          <!--             <a href="http://www.instagram.com" target="_blank"<i class= "fa fa-instagram fa-lg"></i></a> -->
+        </div>
+  </div>
 
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
