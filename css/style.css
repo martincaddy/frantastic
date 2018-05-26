@@ -22,49 +22,20 @@ ul {
   list-style-type: none;
 }
 
-.dropdown-item {
+/* .dropdown-item {
   border-bottom: solid 1px;
 }
 
 .dropdown-item:hover {
     color: blue;
     background-color: #e6e6e6;
-}
+} */
+
+/* heading styles */
+
 
 h1 {
   text-align: center;
-}
-
-#cf{
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
-}
-
-.top {
-  position:relative;
-  height: 183%;
-  width: 107%;
-  margin:20 auto;
-  border-radius: 5px;
-}
-
-.bottom {
-  border-radius: 5px;
-}
-
-#cf img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-#cf img.top:hover {
-  opacity:0;
 }
 
 #logo {
