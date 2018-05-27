@@ -22,6 +22,41 @@ ul {
   list-style-type: none;
 }
 
+/*Shop area with teas on sale*/
+
+.shop {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.shop img{
+  height: 400px;
+  margin: 10px;
+  display: block;
+/*   border-radius: 5px; */
+  padding-bottom: 5px;
+  padding: 0px 25px;
+}
+
+#benchb4 {
+  
+}
+/*images and heading in the shop dispay area*/
+
+#mthhd {
+  display: flex;
+  flex-direction: row;
+  display: inline;
+}
+
+.row2, .row3{
+  display: flex;
+  flex-direction: row;
+}
+
+
 /* .dropdown-item {
   border-bottom: solid 1px;
 }
