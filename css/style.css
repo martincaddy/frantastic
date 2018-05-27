@@ -22,26 +22,95 @@ ul {
   list-style-type: none;
 }
 
-/*Shop area with teas on sale*/
+#phnumber {
+ padding-left: 32rem;
+}
 
-.shop {
+@media only screen and (max-width: 768px) {
+  #phnumber {
+    padding-left: 20rem;
+  }
+}
+
+/*Photos of work taken*/
+
+.work {
   display: flex;
   justify-content: center;
   flex-direction: row;
   margin-bottom: 50px;
 }
 
-.shop img{
+.work img{
   height: 400px;
-  margin: 10px;
+/*   margin: 10px; */
   display: block;
 /*   border-radius: 5px; */
-  padding-bottom: 5px;
+/*   padding-bottom: 5px; */
   padding: 0px 25px;
 }
 
-#benchb4 {
-  
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+/* #cf img.top:hover {
+  opacity:0;
+} */
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#cf img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
+
+/* IMAGE POSITIONING */
+
+.lawn img {
+  margin-left: 3.2rem;
+}
+
+#lawnb4 {
+  width: 350px;
+}
+
+#benchafter {
+  width: 350px;
+  margin-left: 6rem;
+}
+
+#benchbefore {
+  margin-left: 6rem;
 }
 /*images and heading in the shop dispay area*/
 
@@ -51,23 +120,16 @@ ul {
   display: inline;
 }
 
-.row2, .row3{
+.row2 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
 }
 
-
-/* .dropdown-item {
-  border-bottom: solid 1px;
+marquee {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-
-.dropdown-item:hover {
-    color: blue;
-    background-color: #e6e6e6;
-} */
-
-/* heading styles */
-
 
 h1 {
   text-align: center;
