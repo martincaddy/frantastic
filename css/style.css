@@ -1,3 +1,15 @@
+html {
+  font-family: "Open-sans", sans-serif;
+/*   font-family: "Fredoka One", cursive; */
+  font-size: 14px;
+}
+
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+     
 /*NAVBAR STYLES*/
 
 .navbar {
@@ -22,14 +34,10 @@ ul {
   list-style-type: none;
 }
 
-#phnumber {
- padding-left: 32rem;
-}
+/* Title Font */
 
-@media only screen and (max-width: 768px) {
-  #phnumber {
-    padding-left: 20rem;
-  }
+.title {
+  font-family: 'Fredoka One', cursive;
 }
 
 /*Photos of work taken*/
@@ -53,7 +61,7 @@ ul {
 #cf {
   position:relative;
   height:281px;
-  width:450px;
+  width: 400px;
   margin:0 auto;
 }
 
@@ -112,14 +120,61 @@ animation-direction: alternate;
 #benchbefore {
   margin-left: 6rem;
 }
-/*images and heading in the shop dispay area*/
 
-#mthhd {
+/* Media queries for photos */
+
+@media only screen and (max-width: 900px) {
+  .path {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .lawn {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #benchbefore {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #benchafter {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bench {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lawn {
+    margin: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+/*images and heading in the work dispay area*/
+
+/* #mthhd {
   display: flex;
   flex-direction: row;
   display: inline;
 }
-
+ */
 .row2 {
   display: flex;
   flex-direction: row;
@@ -176,10 +231,6 @@ h1 {
 
 .fontawesome a:hover {
   color: #0099ff;
-}
-
-.fa-instagram {
-  padding-top: 0.25rem;
 }
 
 .foot {

@@ -6,9 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="logo.ico" type="image/x-icon">
-  <style type="text/css"> body { background: #d4fce0 !important; } </style>
+  <style type="text/css">
+    body {
+      background: linear-gradient(#d4fce0, lightgreen);
+/*       background: #d4fce0 !important; */
+    } 
+  </style>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
   <title>Frantastic</title>
@@ -28,19 +35,26 @@
             <a class="nav-link active" href="#">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#jobs">Jobs I do </a>
+            <a class="nav-link" href="#jobs">Contact Details </a>
             <li class="nav-item">
             </li>
         </ul>
-        <h5 id="phnumber"><i class="fa fa-phone"></i> 07765 520971</h5>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-phone"></i> 07765 520971</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
 
+  
   <!--   SITE HEADING -->
-  <div class="heading pt-5 mt-3">
+  <div class="heading pt-5 mt-4 pb-2 title">
     <h1>FRANTASTIC<em> Your local handywoman</em></h1>
-<!--     <h3 class="text-center">No job too small all work considered 07765 520971</h4> -->
+    <!--     <h3 class="text-center">No job too small all work considered 07765 520971</h4> -->
   </div>
 
 
@@ -93,7 +107,7 @@
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-6 contact">
         <div class="card bg-light text-center text-dark">
           <div class="card-body">
             <i class="fa fa-phone"></i>
@@ -108,7 +122,7 @@
 
   <div class="container">
     <div class="row mb-12">
-      <div class="col-md-3 py-3">
+      <div class="col-lg-3 py-3">
         <div class="card bg-light text-center text-dark">
           <div class="card-body">
             <i class="fa fa-home"></i>
@@ -124,7 +138,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 py-3">
+      <div class="col-lg-3 py-3">
         <div class="card bg-light text-center text-dark">
           <div class="card-body">
             <i class="fa fa-tree"></i>
@@ -140,7 +154,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3 py-3">
+      <div class="col-lg-3 py-3">
         <div class="card bg-light text-center text-dark">
           <div class="card-body">
             <i class="fa fa-map"></i>
@@ -163,6 +177,7 @@
       </div>
     </div>
   </div>
+    
   <!--MAIN FOOTER-->
 
   <div class="foot">
