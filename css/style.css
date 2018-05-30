@@ -1,6 +1,5 @@
 html {
   font-family: "Open-sans", sans-serif;
-/*   font-family: "Fredoka One", cursive; */
   font-size: 14px;
 }
 
@@ -8,7 +7,6 @@ body {
   margin: 0px;
   width: 100%;
 }
-
      
 /*NAVBAR STYLES*/
 
@@ -51,10 +49,7 @@ ul {
 
 .work img{
   height: 400px;
-/*   margin: 10px; */
   display: block;
-/*   border-radius: 5px; */
-/*   padding-bottom: 5px; */
   padding: 0px 25px;
 }
 
@@ -74,10 +69,6 @@ ul {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-
-/* #cf img.top:hover {
-  opacity:0;
-} */
 
 @keyframes cf3FadeInOut {
   0% {
@@ -169,12 +160,6 @@ animation-direction: alternate;
 
 /*images and heading in the work dispay area*/
 
-/* #mthhd {
-  display: flex;
-  flex-direction: row;
-  display: inline;
-}
- */
 .row2 {
   display: flex;
   flex-direction: row;
@@ -247,3 +232,14 @@ h1 {
 #blklogo {
     padding-left: 1rem;
 }
+
+/* Gallery Styles */
+#hedgetrim {
+  height: auto;
+}
+
+#label {
+  font-family: "Open sans", sans-serif;
+  font-size: 5rem;
+}
+
